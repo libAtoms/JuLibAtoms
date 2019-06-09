@@ -1,10 +1,10 @@
 # This file is machine-generated - editing it directly is not advised
 
 [[ASE]]
-deps = ["JuLIP", "LinearAlgebra", "NeighbourLists", "Parameters", "PyCall", "Reexport", "Test"]
-git-tree-sha1 = "c8df261e3c52ee9763a2879147ae49dc07c3becc"
+deps = ["JuLIP", "LinearAlgebra", "NeighbourLists", "Parameters", "PyCall", "Reexport"]
+git-tree-sha1 = "587d6442bcd902642200ddd05a8114f9d415b72b"
 uuid = "51974c44-a7ed-5088-b8be-3e78c8ba416c"
-version = "0.3.0"
+version = "0.4.1"
 
 [[AlgebraicMultigrid]]
 deps = ["Compat", "IterativeSolvers", "Random"]
@@ -342,10 +342,10 @@ uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.20.0"
 
 [[JuLIP]]
-deps = ["AlgebraicMultigrid", "Calculus", "CommonSubexpressions", "DelimitedFiles", "Dierckx", "ForwardDiff", "FunctionWrappers", "JSON", "LineSearches", "LinearAlgebra", "MacroTools", "NeighbourLists", "Optim", "Parameters", "Printf", "Reexport", "SparseArrays", "StaticArrays", "SuiteSparse", "Test"]
-git-tree-sha1 = "9c140e5bb37c668a1486be4784f918b9343d7dc8"
+deps = ["AlgebraicMultigrid", "Calculus", "CommonSubexpressions", "DelimitedFiles", "Dierckx", "ForwardDiff", "FunctionWrappers", "JSON", "LineSearches", "LinearAlgebra", "MacroTools", "NeighbourLists", "Optim", "Parameters", "Printf", "Reexport", "SparseArrays", "StaticArrays", "SuiteSparse"]
+git-tree-sha1 = "4daf62e3642be4db2c27b627300537abd8523a26"
 uuid = "945c410c-986d-556a-acb1-167a618e0462"
-version = "0.6.0"
+version = "0.7.0"
 
 [[Knockout]]
 deps = ["JSExpr", "JSON", "Observables", "Pkg", "Test", "WebIO"]
@@ -464,10 +464,10 @@ uuid = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 version = "0.3.2"
 
 [[NeighbourLists]]
-deps = ["LinearAlgebra", "Printf", "StaticArrays", "Test"]
-git-tree-sha1 = "c0326da6b7a7dc1ebb40810d302bec02ca97b507"
+deps = ["LinearAlgebra", "StaticArrays"]
+git-tree-sha1 = "f698dd35d342349dc5dd001affa39f4933914e29"
 uuid = "2fcf5ba9-9ed4-57cf-b73f-ff513e316b9c"
-version = "0.3.0"
+version = "0.4.0"
 
 [[Observables]]
 deps = ["Test"]
