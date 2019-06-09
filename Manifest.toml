@@ -296,22 +296,16 @@ uuid = "83e8ac13-25f8-5344-8a64-a9f2b223428f"
 version = "0.5.0"
 
 [[Interact]]
-deps = ["CSSUtil", "DataStructures", "InteractBase", "InteractBulma", "JSON", "Knockout", "Observables", "Reexport", "Test", "WebIO", "Widgets"]
-git-tree-sha1 = "102666d2d89a672c86bd33399a5f36c7e5d2b3b5"
+deps = ["CSSUtil", "InteractBase", "JSON", "Knockout", "Observables", "OrderedCollections", "Reexport", "Test", "WebIO", "Widgets"]
+git-tree-sha1 = "f6531bc554990a6659966afcb8f05543c032068b"
 uuid = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
-version = "0.9.0"
+version = "0.10.2"
 
 [[InteractBase]]
 deps = ["Base64", "CSSUtil", "Colors", "Dates", "JSExpr", "JSON", "Knockout", "Observables", "OrderedCollections", "Random", "WebIO", "Widgets"]
 git-tree-sha1 = "752e330aef74a8a01968cce0a361a4525b944471"
 uuid = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
 version = "0.10.2"
-
-[[InteractBulma]]
-deps = ["InteractBase", "Sass", "Test"]
-git-tree-sha1 = "1f5789da81ef33ada621ed6404a44224290306d3"
-uuid = "7981ab7d-5bfa-5e03-9ec9-f3d4afc0a1ca"
-version = "0.6.1"
 
 [[InteractiveUtils]]
 deps = ["Markdown"]
@@ -606,12 +600,6 @@ version = "1.0.2"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
-
-[[Sass]]
-deps = ["BinaryProvider", "Libdl", "Test"]
-git-tree-sha1 = "de11179555c6363c5a61c4c94376db3498983734"
-uuid = "322a6be2-4ae8-5d68-aaf1-3e960788d1d9"
-version = "0.1.0"
 
 [[Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
